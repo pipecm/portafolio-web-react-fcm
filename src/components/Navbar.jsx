@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Inicio", href: "#home" },
-    { name: "Sobre Mí", href: "#about" },
+    { name: "Acerca de", href: "#about" },
     { name: "Proyectos", href: "#projects" },
     { name: "Contacto", href: "#contact" },
   ];
@@ -31,9 +31,13 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#home" className="text-xl font-bold text-primary">
-          Portfolio
-        </a>
+        <div>
+          <a href="#home" className="text-xl font-bold text-primary">
+            Simply Felipe
+          </a>
+          <p>Desarrollo Full Stack, Cloud, DevOps y más</p>
+        </div>
+       
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">

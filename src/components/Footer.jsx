@@ -8,11 +8,11 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-lg font-semibold">Portfolio</p>
+            <p className="text-lg font-semibold">Simply Felipe</p>
           </div>
 
           <div className="text-sm text-gray-300">
-            &copy; {currentYear} Todos los derechos reservados
+            &copy; {currentYear} Todos los derechos reservados. Hecho con ❤️ en SCL
           </div>
 
           <div className="mt-4 md:mt-0">
@@ -30,7 +30,7 @@ const Footer = () => {
                   href="#about"
                   className="hover:text-secondary transition-colors"
                 >
-                  Sobre Mí
+                  Acerca de
                 </a>
               </li>
               <li>
