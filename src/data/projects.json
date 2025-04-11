@@ -13,7 +13,7 @@
     "name": "Hospital San Itario",
     "description": "Aplicación de gestión de tareas con funcionalidades de arrastrar y soltar, filtros y alertas.",
     "image": "https://img.freepik.com/vector-premium/ilustracion-dibujos-animados-hospital-cruz-roja-el_917506-478264.jpg?semt=ais_hybrid&w=740",
-    "liveUrl": "http://ec2-3-80-230-249.compute-1.amazonaws.com:3000/",
+    "liveUrl": "http://ec2-54-235-38-231.compute-1.amazonaws.com:3000/",
     "githubUrl": "https://github.com/pipecm/adalid-frontend-hospital-2025",
     "tags": ["React", "TypeScript", "IndexedDB", "Bootstrap"]
   },
