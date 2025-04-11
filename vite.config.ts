@@ -7,7 +7,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    allowedHosts: [ 'ec2-18-212-165-212.compute-1.amazonaws.com' ]
+    allowedHosts: [ 
+      'ec2-18-212-165-212.compute-1.amazonaws.com',
+      'ec2-44-202-69-102.compute-1.amazonaws.com' 
+    ]
   },
   plugins: [react()],
   resolve: {
